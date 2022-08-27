@@ -25,7 +25,6 @@ blockquote {
 
 #Top_Href li {
     float: left;
-    background-color: #333;
 }
 
 #Top_Href li a {
@@ -61,8 +60,26 @@ blockquote {
 }
 
 #Developer_Community {
-    float: left;
-    width: 33.3%;
+    text-align: center;
+}
+#Developer_Community ul{
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #333;
+}
+#Developer_Community ul li{
+    float:left;
+}
+#Developer_Community ul li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+#Developer_Community ul li a:hover{
+    background-color: #C9C9C9;
 }
 
 /* 未被访问的链接 */

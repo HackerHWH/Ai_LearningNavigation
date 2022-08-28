@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>人工智能导航页</title>
 	<link rel="stylesheet" type="text/css" href="导航页样式表.css">
 	<base target="_blank" />
@@ -11,7 +12,7 @@
 <!--个人联系方式:QQ 2071019075 如有任何网站建设建议欢迎友好交流-->
 
 <body>
-	<h1 style="text-align:center">用于人工智能学习相关的导航</h1>
+	<h1 style="text-align:center" id="Home">用于人工智能学习相关的导航</h1>
 	<blockquote style="text-align:center">
 		本网站由<span class="red">@HackerHWH</span>编写,
 		用于个人学习提升计算机素养,<a href="https://github.com/HackerHWH/Ai_LearningNavigation">官网</a>
@@ -20,6 +21,7 @@
 
 	<!-- 页顶链接 -->
 	<ul id="Top_Href">
+		<li><a href="#Home" target="_self" class="active">Home</a></li>
 		<li><a href="#Study" target="_self">Study</a></li>
 		<li><a href="#Developer_Community" target="_self">Developer_Community</a></li>
 	</ul>
@@ -63,12 +65,6 @@
 			<u1>
 				<li><a href="http://www.biancheng.net/algorithm/" style="text-decoration:none">算法教程</a></li>
 			</u1>
-			<p>动手学深度学习在线课程</p>
-			<u1>
-				<li><a href="https://courses.d2l.ai/zh-v2/" style="text-decoration:none">Dive into DeepLearning课程目录</a>
-				</li>
-				<li><a href="https://zh-v2.d2l.ai/" style="text-decoration:none">Dive into DeepLearning在线教材</a></li>
-			</u1>
 		</div>
 
 		<div class="Grid-item">
@@ -101,26 +97,45 @@
 						style="text-decoration:none">李炎恢HTML/CSS教程</a>
 				</li>
 			</u1>
+			<p title="JavaScript教程(W3school)">JavaScript教程</p>
+			<u1>
+				<li><a href="https://www.w3school.com.cn/js/index.asp" style="text-decoration:none">JavaScript教程</a></li>
+			</u1>
 		</div>
 
 		<div class="Grid-item">
 			<h1 class="title">学习网站链接收藏</h1>
 			<u1>
-				<li><a href="https://www.yiibai.com/">易百教程</a></li>
+				<li><a href="https://www.yiibai.com/" style="text-decoration:none">易百教程</a></li>
 				<li><a href="https://www.icourse163.org/" style="text-decoration:none">中国大学MOOC</a></li>
 				<li><a href="https://www.bookstack.cn/" style="text-decoration:none">书栈网</a></li>
+			</u1>
+		</div>
+
+		<div class="Grid-item">
+			<h1 class="title">机器学习与深度学习</h1>
+			<p>动手学深度学习在线课程</p>
+			<u1>
+				<li><a href="https://courses.d2l.ai/zh-v2/" style="text-decoration:none">Dive into DeepLearning课程目录</a></li>
+				<li><a href="https://zh-v2.d2l.ai/" style="text-decoration:none">Dive into DeepLearning在线教材</a></li>
 			</u1>
 		</div>
 	</div>
 
 	<div id="Developer_Community">
 		<h1>开发者社区</h1>
-			<ul>
-				<li><a href="https://github.com/" style="text-decoration:none">Github</a></li>
-				<li><a href="https://gitee.com/" style="text-decoration:none">Gitee</a></li>
-				<li><a href="https://cloud.tencent.com/developer/devdocs" style="text-decoration:none">腾讯开发者手册</a></li>
-				<li><a href="https://developer.aliyun.com/" style="text-decoration:none">阿里云开发者社区</a></li>
-			</ul>
+		<ul>
+			<li><a href="https://github.com/" style="text-decoration:none">Github</a></li>
+			<li><a href="https://gitee.com/" style="text-decoration:none">Gitee</a></li>
+			<li><a href="https://cloud.tencent.com/developer/devdocs" style="text-decoration:none">腾讯开发者手册</a></li>
+			<li><a href="https://developer.aliyun.com/" style="text-decoration:none">阿里云开发者社区</a></li>
+		</ul>
+	</div>
+
+	<div class="footer">
+		<p>click <a href="https://github.com/HackerHWH/Ai_LearningNavigation">here</a> to update!</p>
+		<p>Desigh by GeekerHWH</p>
+		<p>copyright ©GeekerHWH all rights reserved</p>
 	</div>
 </body>
 
